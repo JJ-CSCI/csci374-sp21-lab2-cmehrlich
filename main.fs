@@ -11,7 +11,7 @@ else false
 
 // This function checks if a minute value `m` is not in [0,59] range
 let areMinutesInvalid m = 
-if m < 1 || m > 59 then
+if m < 0 || m > 59 then
   true
 else false
 
